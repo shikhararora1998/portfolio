@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --primary--text: white;
+    --primary--color: rgb(70, 109, 201);
+}
+.custom-nav{
+    background: linear-gradient(135deg, black, #141313, #1c1919,#343232);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+} 
+
+.nav-list li a {
+    text-align: center;
+}
+.nav-list li a{
+    color: var(--primary--text);
+    font-size: 1em;
+    
+}
+.nav-list li a:hover{
+    color: var(--primary--text);
+    border-bottom: 5px solid rgb(252, 42, 77);
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 1em;
+    transition: all 0.1s ease-in-out .3s;
+    
+}
+
+.custom-logo{
+    font-family: 'Poppins',sans-serif;
+    font-style:initial;
+    font-weight: 700;
+    color: rgb(255, 33, 70);
+    font-size: 30px;
+}
+.custom-logo:hover{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    color: rgb(255, 33, 70);
+    font-size: 33px;
+}
+
+.border-content{
+    border: 1px solid black;
+    
+}
+
+/* Home Secition */
+
+.banner_wrapper {
+    z-index: -1;
+    
+}
+.banner_wrapper {
+    width: 100%;
+    height: auto;
+    min-height: 440px;
+    background-color: rgb(14, 13, 13);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0 100px 0;
+
+}
+.banner_wrapper h6{
+    color: rgb(235, 245, 245);
+    font-size: 1.5rem;
+    
+}
+.banner_wrapper img {
+    position: absolute;
+    left: 740px;
+    bottom: 30px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.banner_wrapper h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    color: rgb(255, 67, 67)
+    
+}
+.banner_wrapper h1 span{
+    color: rgb(237, 199, 48);
+    font-size: 4rem;
+}
+.custom-button{
+    border: 1px solid rgb(97, 0, 16);
+    border-radius: 5px;
+    padding: 16px;
+    background-color: rgb(255, 24, 62);
+    color: white;
+}
+.custom-button:hover{
+    font-weight: bold;
+    color: white;
+   
+}
+.custom-buttons-2{
+    border: 1px solid rgb(24, 24, 201);
+    border-radius: 5px;
+    padding: 16px;
+    background-color: rgba(68, 35, 255, 0.854);
+    color: white;
+}
+.custom-buttons-2:hover{
+    font-weight: bold;
+    color: white;
+   
+}
+
+/* About Section  */
+
+
+.about{
+    background-color: rgb(14, 13, 13);
+    height: 450px;
+    width: 100%;
+
+}
+.about img{
+    height:210px;
+    width:210px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.about h1{
+    color: rgb(249, 249, 249);
+    font-family:  'Poppins', sans-serif;
+    word-spacing: 3px   ;
+}
+.about p{
+    color: rgb(214, 214, 214);
+    font-family:  'Poppins', sans-serif;
+}
+
+.about p{
+    text-align: justify;
+}
+.about hr:hover{
+    color: rgb(255, 255, 255);
+    height: 4px;
+    
+}
+
+/* Skills Section  */
+
+
+.Skills{
+    background-color: rgb(14, 13, 13);
+    
+}
+.Skills .row h1{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    
+}
+.Skills img{
+    height:240px;
+    width:240px;
+    border-radius: 50%;
+    margin: 100px 30px 90px 50px;
+    
+}
+.Skills h3{
+    color: white;
+    font: 100;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* Contact Section  */
+
+
+.content-header{
+    font-family: 'Oleo Script', sans-serif;
+    color:#fcc500;
+    font-size: 45px;
+}
+  
+.section-content{
+    text-align: center; 
+    color: white;
+}
+#contact{
+      
+    font-family: 'Teko', sans-serif;
+    padding-top: 60px;
+    width: 100%;
+    width: 100vw;
+    height: 120vh;
+    background-color: rgb(14, 13, 13);
+}
+.contact-section{
+    padding-top: 40px;
+}
+.contact-section .col-md-6{
+    width: 50%;
+}  
+.form-line{
+    border-right: 1px solid #B29999;
+}
+  
+.form-group{
+    margin-top: 10px;
+}
+label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+    color: white;
+}
+.form-control{
+    font-size: 1.3em;
+    color: rgb(18, 17, 17);
+}
+textarea.form-control {
+      height: 135px;
+     
+}
+  
+.submit{
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+  
+}
+  
